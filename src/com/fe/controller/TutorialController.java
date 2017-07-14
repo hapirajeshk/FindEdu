@@ -65,5 +65,8 @@ public class TutorialController {
 		tutorialsService.addTutorial(tutorials);
 		return "tutorial_Register_Success";
 	}
+	@RequestMapping(value="/openFaculty",method=RequestMethod.POST)
+		public void openFaulty(){
+	}
 
 }
