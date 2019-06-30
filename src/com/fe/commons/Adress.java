@@ -6,7 +6,7 @@ import javax.persistence.Embeddable;
 
 @Embeddable
 public class Adress {
-	
+	   
 	
 	@Column(name="COUNTRY_NAME")
 	private String country;
